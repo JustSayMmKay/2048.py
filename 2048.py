@@ -5,6 +5,7 @@ from random import randint
 import sys
 
 def getnums(f,r=[0,1,2,3],c=[0,1,2,3]):
+	print"Random"
     ints=[]
     for y in r:
         for x in c:ints.append(f[y][x])
